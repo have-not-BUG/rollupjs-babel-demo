@@ -1,8 +1,8 @@
 // export { default as generateUUID } from './foo'
 // export { default as getNowDate } from './main'
 
-import generateUUID from './foo'
-import getNowDate from './main'
+import generateUUID from './generateUUID'
+import getNowDate from './getNowDate'
 
 const zonst_utils={
     generateUUID,

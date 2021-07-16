@@ -1,4 +1,4 @@
-// // import foo from './foo.js';
+// // import foo from './generateUUID.js';
 // import { version } from '../package.json';
 // import answer from 'the-answer';
 // // var _ = require('lodash');

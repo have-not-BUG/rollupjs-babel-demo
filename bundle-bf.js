@@ -8,7 +8,7 @@ var answer__default = /*#__PURE__*/_interopDefaultLegacy(answer);
 
 var version = "1.0.0";
 
-// import foo from './foo.js';
+// import foo from './generateUUID.js';
 
 function main () {
     console.log('version:'+version);
