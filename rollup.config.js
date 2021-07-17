@@ -39,7 +39,17 @@ export default {
             // file: 'out.js',
             // inlineDynamicImports: true
 
-        }
+        },
+        // {
+        //     // format: 'es',
+        //     // dir:'es',
+        //     name:'zonst_utils',
+        //     format: 'umd',
+        //     dir:'dist/umd',
+        //     // file: 'out.js',
+        //     // inlineDynamicImports: true
+        //
+        // }
     ],
     plugins: [
         json(),
@@ -51,8 +61,7 @@ export default {
             babelHelpers: 'runtime',
             exclude: 'node_modules/**'
     }),
-    // uglify()
-
+    uglify()
     ],
     external:["@babel/runtime"]
 };
